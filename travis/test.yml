@@ -14,4 +14,4 @@
       when: ansible_os_family == 'Debian'
 
   roles:
-    - nginx_role
+    - travis_ansible_demo
