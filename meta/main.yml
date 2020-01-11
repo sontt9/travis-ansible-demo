@@ -9,25 +9,9 @@ galaxy_info:
   github_branch: master
 
   platforms:
-    - name: Ubuntu
-      versions:
-        - bionic
-        - xenial
-        - trusty
     - name: Debian
       versions:
         - stretch
-        - jessie
-    - name: EL
-      versions:
-        - 7
-    - name: Fedora
-      versions:
-        - 29
-        - 28
-        - 27
-        - 26
-        - 25
-        - 24
+        - buster
 
 dependencies: []

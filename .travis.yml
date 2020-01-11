@@ -25,3 +25,6 @@ script:
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
   - 'sudo docker rm -f "$(cat ${container_id})"'
+
+notifications:
+  email: son.thai@live.com
